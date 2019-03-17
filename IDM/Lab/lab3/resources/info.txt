@@ -1,0 +1,8 @@
+Buying,Maint,Doors,Persons,LugBoot,Safety,Label
+Buying: vhigh, high, med, low
+Maint: vhigh, high, med, low
+Doors: 2, 3, 4, 5more
+Persons: 2, 4, more
+LugBoot: small, med, big
+Safety: low, med, high
+Label: unacc, acc, good, vgood
