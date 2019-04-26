@@ -64,5 +64,6 @@ for key, val in core_points.items():
                 for _point in tmp_ar:
                     new_candidate.append(_point)
 print(len(clusters))
-for cluster in clusters:
-    print(cluster)
+for i,cluster in enumerate(clusters):
+    print("Cluster"+str(i),cluster)
+    

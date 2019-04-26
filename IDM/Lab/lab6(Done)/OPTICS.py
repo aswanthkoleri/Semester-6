@@ -325,5 +325,5 @@ optics = Optics(points, 0.2, 2) # 100m radius for neighbor consideration, cluste
 optics.run()                    # run the algorithm
 clusters = optics.cluster(0.1)   # 50m threshold for clustering
 
-for cluster in clusters:
-    print cluster.points
+for i,cluster in enumerate(clusters):
+    print "Cluster "+str(i)+": ",cluster.points

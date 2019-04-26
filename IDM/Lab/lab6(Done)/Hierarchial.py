@@ -49,7 +49,7 @@ def linkage(distance, indexes, original_distance, type = 'single'):
                 new_distance[i][j] = mn
     print(new_distance)
     return new_distance, indexes
-distance = pd.read_excel('matrixsmall.xlsx', header=None)
+distance = pd.read_excel('matrix.xlsx', header=None)
 distance = np.array(distance)
 print(distance)
 original_distance = np.copy(distance)
